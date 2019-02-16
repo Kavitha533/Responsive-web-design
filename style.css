@@ -1,0 +1,43 @@
+img{
+  width: 200px;
+}
+.sub1{
+  border: 3px solid #ddd;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  width: 30;
+}
+h1{
+  text-align: center;
+}
+.mainDiv{
+  border: 3px solid #000;
+  display: flex;
+}
+/* media queries */
+@media only screen  and (max-width:450px) {
+  .mainDiv{
+    border: 3px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width:470px) and (max-width:768px) {
+.mainDiv{
+  border: 3px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    }
+   }
+ @@media screen and (min-width:769px) and (max-width:1024px) {
+.mainDiv{
+  border: 3px solid #000;
+  display: flex;
+  flex-wrap: wrap
+  justify-content:space-between;
+  flex-direction:column-reverse;
+}
+}
